@@ -94,12 +94,33 @@ Unicode字符串:为了支持两个字节表示的Unicode国际编码，以便�
  0   1   2   3   4   5   6
 -6  -5  -4  -3  -2  -1
 ```
+切片(slicing)可通过给出起始下标得到一个原字符串的”子串“。如：
+```python
+>>> word[0:2]  # characters from position 0 (included) to 2 (excluded)
+'Py'
+>>> word[2:5]  # characters from position 2 (included) to 5 (excluded)
+'tho'
+>>> word[:2]   # character from the beginning to position 2 (excluded)
+'Py'
+>>> word[4:]   # characters from position 4 (included) to the end
+'on'
+>>> word[-2:]  # characters from the second-last (included) to the end
+'on'
+```
+
 访问单个字符时下标不能越界，如：
 ```python
 >>> word[42]  # the word only has 6 characters
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 IndexError: string index out of range
+```
+但切片可以越界，如：
+```python
+>>> word[4:42]
+'on'
+>>> word[42:]
+''
 ```
 
 [Using Python as a Calculator](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
