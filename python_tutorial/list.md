@@ -157,7 +157,7 @@
    >>> L.sort(reverse=true)  
    #也可以用全局函数来对列表排序
    >>> L = ["Lipin","ZhangWei","Scott","Hello"]
-   >>> sorted(L,f= lambda x: x[-1])  #将返回一个排序好的列表
+   >>> S = sorted(L,f= lambda x: x[-1])  #将返回一个排序好的列表，S和L是同一个列表对象吗？
 ```
 
 ### Python列表操作的函数和方法
