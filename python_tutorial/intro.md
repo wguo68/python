@@ -94,6 +94,12 @@ Unicode字符串:为了支持两个字节表示的Unicode国际编码，以便�
  0   1   2   3   4   5   6
 -6  -5  -4  -3  -2  -1
 ```
-
+下标不能越界，如：
+```python
+>>> word[42]  # the word only has 6 characters
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: string index out of range
+```
 
 [Using Python as a Calculator](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
