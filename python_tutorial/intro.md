@@ -49,7 +49,15 @@ print("hello world\n")
 \t  表示一个制表符
 \\  表示 \ 字符本身
 ```
-
+三引号用于表示多行字符串
+```
+   >>>str = """\
+         Usage: thingy [OPTIONS]
+         -h                        Display this usage message
+         -H hostname               Hostname to connect to
+       """
+ print (str)
+```
 
 
 
