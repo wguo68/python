@@ -153,6 +153,8 @@
    >>> L = ["Lipin","ZhangWei","Scott","Hello"]
    >>> L.sort();
    >>> L.sort(f= lambda x: x[-1])    #传入一个lambda函数，按照最后一个字母来排序
+   >>> L = [45,13,28,5,89,24]
+   >>> L.sort(reverse=true)  
 ```
 
 ### Python列表操作的函数和方法
