@@ -26,8 +26,18 @@ print("hello world\n")
                  # 因此，python称为动态语言
 ```
 
+### 字符串string
+ 可以用首尾单引号‘ ’ 或首尾2个双引号 来表字符串
+```
+'hello'
+"world"
+```
+单引号表示的字符串中可以包含 ```"``` ，双引号表示的字符串中可以包含 ```‘``` 。
 
-
+```python
+'hello ”world“'
+"'hello' world"
+```
 
 
 
