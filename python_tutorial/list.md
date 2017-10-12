@@ -139,3 +139,8 @@
    >>> a in L1
    False
 ```
+### 参考：
+
+[An Introduction to Python Lists](http://www.effbot.org/zone/python-list.htm)
+
+[http://www.tutorialspoint.com/python/python_lists.htm](http://www.tutorialspoint.com/python/python_lists.htm)
