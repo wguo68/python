@@ -7,13 +7,15 @@ print("hello world\n")
 >>> (50 - 5*6) / 4
 5.0
 
->>> 17 / 3  # classic division returns a float
+>>> 17 / 3  # 实数除法
 5.666666666666667
 >>>
->>> 17 // 3  # floor division discards the fractional part
+>>> 17 // 3  # 整数除法
 5
->>> 17 % 3  # the % operator returns the remainder of the division
+>>> 17 % 3  # the % 取模
 2
+>>> 2 ** 7  #  指数
+128
 ```
 
 
