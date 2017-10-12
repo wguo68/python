@@ -148,6 +148,13 @@
     >>> S = L.copy()  # S,L是相互独立的
 ```
 
+排序sort
+```python
+   >>> L = ["Lipin","ZhangWei","Scott","Hello"]
+   >>> L.sort();
+   >>> L.sort(f= lambda x: x[-1])    #传入一个lambda函数，按照最后一个字母来排序
+```
+
 ### Python列表操作的函数和方法
 * 列表操作包含以下函数:
 ```
