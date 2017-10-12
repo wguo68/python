@@ -139,6 +139,15 @@
    >>> a in L1
    False
 ```
+
+复制列表
+```python
+    >>> L = [1,2,3,4,5,6]
+    >>> S = L  # S和L都是同一个列表的名字，修改任何一个就是修改另外一个
+    >>> S = L[:] # S,L是相互独立的
+    >>> S = L.copy()  # S,L是相互独立的
+```
+
 ### 参考：
 
 [An Introduction to Python Lists](http://www.effbot.org/zone/python-list.htm)
