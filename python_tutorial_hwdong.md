@@ -50,6 +50,17 @@
    >>>L1 = ["Hello",80, 95.5]
    >>> a= 80
    >>> a in L1
+   False
+   >>> a= "hello"
+   >>> a not in L1
+   True
+```
+
+可用not in来判断一个元素是否不在一个列表里
+```
+   >>>L1 = ["Hello",80, 95.5]
+   >>> a= 80
+   >>> a not in L1
    True
    >>> a= "hello"
    >>> a in L1
