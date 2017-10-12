@@ -72,8 +72,28 @@ Unicode字符串:为了支持两个字节表示的Unicode国际编码，以便�
    >>>3 * 'un' + 'ium'
    'unununium'
 ```
-
-
+字符串可以用下标进行访问：
+```python
+>>> word = 'Python'
+>>> word[0]  # character in position 0
+'P'
+>>> word[5]  # character in position 5
+'n'
+>>> word[-1]  # last character
+'n'
+>>> word[-2]  # second-last character
+'o'
+>>> word[-6]
+'P'
+```
+第一个字符下标是0，最后一个字符下标是-1 或（长度-1）。如图：
+```
+ +---+---+---+---+---+---+
+ | P | y | t | h | o | n |
+ +---+---+---+---+---+---+
+ 0   1   2   3   4   5   6
+-6  -5  -4  -3  -2  -1
+```
 
 
 [Using Python as a Calculator](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
