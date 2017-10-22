@@ -11,7 +11,11 @@ Python语言简单易用，提供了比脚本语言更多针对大型程序的�
 
 
 Refer to：
-http://thepythonguru.com/getting-started-with-python/  
+
+http://thepythonguru.com/getting-started-with-python/ 
+
 https://pythonprogramming.net/introduction-to-python-programming/ 
+
 https://www.guru99.com/python-tutorials.html
+
 https://docs.python.org/3/tutorial/appetite.html 
