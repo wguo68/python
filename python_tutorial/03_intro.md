@@ -183,6 +183,29 @@ def repeat(s, exclaim):
 print repeat('Yay', False)      ## 输出结果将是：YayYayYay
 print repeat('Woo Hoo', True)   ## 输出结果将是：Woo HooWoo HooWoo Hoo!!!   
 ```
-这个程序中，我们定义了一个repeat函数，之后执行了2次函数调用语句，分别传递了相应的参数。
+这个程序中，我们定义了一个repeat函数，之后执行了2次函数调用语句，分别传递了相应的参数。*注意*：函数必须在其调用前先定义。
+```
+# 定义一个带有2个参数的 "repeat" 函数.
+def repeat(s, exclaim):
+    """
+    返回字符串's'的3次重复 .
+    如果exclaim为真，追加3个感叹号.
+    """
+
+    result = s + s + s  # 也可以使用更快的乘法运算符*, "s * 3" 
+    if exclaim:
+        result = result + '!!!'
+    return result
+
+# 又定义了叫做main的函数，其中2次调用了repeat函数
+def main():
+    print repeat('Yay', False)      ## YayYayYay
+    print repeat('Woo Hoo', True)   ## Woo HooWoo HooWoo Hoo!!!
+
+# 如果变量名__name__等于 '__main__'就执行main函数
+if __name__ == '__main__':
+    main()
+
+```
 
 [Using Python as a Calculator](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
