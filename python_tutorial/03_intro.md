@@ -144,6 +144,9 @@ IndexError: string index out of range
 5
 8
 ```
+说明：
 
+* 其中第一行语句“a, b = 0, 1”是一个“多赋值语句（multiple assignment:）”，变量a,b同时用右边的表达式进行赋值。
+* while循环一直执行，只要其中的条件表达式“b<10”为真（即非0或非空值）。“b<10”是一个简单的比较测试，标准的*比较运算符*有： < (小于), > (大于), == (等于), <= (小于等于), >= (大于等于) and != (不等于)
 
 [Using Python as a Calculator](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
