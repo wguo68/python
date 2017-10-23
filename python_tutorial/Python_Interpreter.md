@@ -21,6 +21,8 @@ Python 2.5.2 (r252:60911, Feb 22 2008, 07:57:53)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> 1 + 1
 2
+>>> print("hello world!")
+hello world!
 >>> **输入 Control-D（Unix平台）, Control-Z（Windows平台） 退出python解释器**
 ```
     
