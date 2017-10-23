@@ -16,7 +16,7 @@
     
     * 运行脚本程序
     
-    在此基础上，许多工具还提供了其他调用Python解释器执行Python命令的方式：
+在此基础上，许多工具还提供了其他调用Python解释器执行Python命令的方式：
     
     * 集成开发环境：用于编写、运行Python脚本程序的图形用户界面程序如IDLE、PyCharm（[PyCharm安装及使用](http://www.jianshu.com/p/042324342bf4)）。
     
