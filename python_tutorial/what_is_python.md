@@ -19,6 +19,8 @@ Python使你的程序更紧凑、可读性更好。同一个任务，Python程�
  * 通过一致的缩进（indentation）而不是起止括号来组织语句（程序块）。
  * 不需要对变量或参数进行声明（declarations）：不需要说明变量的类型，变量类型由其表示的数据本身的类型确定。
 
+Python is *extensible*： 你可以将用C语言编写内在的函数或模块添加到Python解释器（interpreter），通过将Python解释器链接到你的C程序（二进制形式），将该C程序作为你的 python程序的扩展。
+
 ## Refer to：
 
 http://thepythonguru.com/getting-started-with-python/ 
