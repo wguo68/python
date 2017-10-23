@@ -9,8 +9,7 @@
 
 注：你也可以用第三方按照工具安装Python解释器和各种python库，如[anaconda](https://zhuanlan.zhihu.com/p/25198543)
 
-* （调用Python解释器）运行Python程序
-    有2种方式：
+* （调用Python解释器）运行Python程序：  有2种方式：
     
     * 交互式解释器
     
