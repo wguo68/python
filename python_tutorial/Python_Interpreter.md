@@ -38,6 +38,8 @@ hello world!
 hello world!
 ```
 
+*编辑Python脚本文件*： 推荐使用sublime text 或 Notepad++
+
 许多工具如集成开发环境提供了更方便的编写和执行python程序的方式（不在本教程介绍范围里）。
     
 * 集成开发环境：用于编写、运行Python脚本程序的图形用户界面程序如IDLE、PyCharm（[PyCharm安装及使用](http://www.jianshu.com/p/042324342bf4)  
