@@ -26,8 +26,18 @@ hello world!
 >>> **输入 Control-D（Unix平台）, Control-Z（Windows平台） 退出python解释器**
 ```
     
-* 运行脚本程序：
-    
+* 运行脚本程序：命令行输入“python 脚本文件名”执行脚本文件中的python命令，如“python hello.py”就执行脚本文件"hello.py"中的Python命令。所谓脚本文件，就是以文件扩展名“.py”结尾的文件，其中是一些Python命令和注释。注释不是python命令，仅仅用于说明程序的，在一行前面加上“#”，这一行就是注释而不是命令。脚本文件可以用任何文本编辑器（如window的记事本或Unix的vim/vi文本编辑程序）编写。比如"hello.py"文件中内容如下：
+```
+ # 这是程序注释，对程序进行一些说明
+ # 比如下面的是著名的hello world程序，用于在屏幕上打印（输出）字符：“hello world”
+ print("hello world")   # print是python自带的一个函数，用于打印（输出）一些信息，比如这里的字符串
+```
+写好上面的脚本文件并保存为“hello.py”后，我们在命令行进入这个程序所在的目录，然后输入命令“python hello.py”
+```
+>>> python hello.py
+hello world!
+```
+
 在此基础上，许多工具还提供了其他调用Python解释器执行Python命令的方式（如集成开发环境、notebook）
     
 * 集成开发环境：用于编写、运行Python脚本程序的图形用户界面程序如IDLE、PyCharm（[PyCharm安装及使用](http://www.jianshu.com/p/042324342bf4)  
