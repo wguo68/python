@@ -10,10 +10,12 @@
 注：你也可以用第三方按照工具安装Python解释器和各种python库，如[anaconda](https://zhuanlan.zhihu.com/p/25198543)
 
 * （调用Python解释器）运行Python程序
-    有3种方式：
+    有如下几种方式：
     
     * 交互式解释器
     
     * 运行脚本程序
     
     * 集成开发环境：用于编写、运行Python脚本程序的图形用户界面程序如IDLE、PyCharm（[PyCharm安装及使用](http://www.jianshu.com/p/042324342bf4)）。
+    
+    * jupyter notebook运行Python解释器：在浏览器中jupyter notebook环境下执行Python命令
