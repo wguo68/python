@@ -9,5 +9,9 @@
 
 * （调用Python解释器）运行Python程序
     有3种方式：
-    * dfdf 
-    * fgfg 
+    
+    * 交互式解释器
+    
+    * 运行脚本程序
+    
+    * 集成开发环境：用于编写、运行Python脚本程序的图形用户界面程序如IDLE、PyCharm
