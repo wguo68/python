@@ -208,4 +208,6 @@ if __name__ == '__main__':
 
 ```
 
+一个python模块既可以直接执行，如"python hello.py"，也可以被其他模块调用执行。 当它被直接执行时，有一个特殊的变量名 "__name__" 被设置成 "__main__"，反之当它被其他模块调用执行时，"__name__" 被设置成它自身的文件名。因此，上面的程序只有被直接执行时，才会执行main函数。
+
 [Using Python as a Calculator](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
