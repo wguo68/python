@@ -1,6 +1,6 @@
 ## Python解释器（Python Interpreter）
 
-### 安装
+### 1. 安装
 
    只要安装相应平台（Linux、Mac OS X、Windows）的Python解释器，就可以编写程序Python程序了。可在[http://www.python.org/downloads/](http://www.python.org/downloads/) 下载安装。
    
@@ -9,7 +9,7 @@
 
 注：你也可以用第三方按照工具安装Python解释器和各种python库，如[anaconda](https://zhuanlan.zhihu.com/p/25198543)
 
-### （调用Python解释器）运行Python程序：  
+### 2.（调用Python解释器）运行Python程序：  
      
 主要有2种方式：
 
