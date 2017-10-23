@@ -17,6 +17,6 @@
     
     * 运行脚本程序
     
-    * 集成开发环境：用于编写、运行Python脚本程序的图形用户界面程序如IDLE、PyCharm（[PyCharm安装及使用](http://www.jianshu.com/p/042324342bf4)  
+    * 集成开发环境：用于编写、运行Python脚本程序的图形用户界面程序如IDLE、PyCharm（[PyCharm安装及使用](http://www.jianshu.com/p/042324342bf4)  
     
     * jupyter notebook运行Python解释器：在浏览器中jupyter notebook环境下执行Python命令
