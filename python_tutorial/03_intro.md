@@ -165,5 +165,23 @@ print()可以跟一个关键字参数**end**以避免输出的换行或者输出
 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,
 ```
 
+类似于python自带的print函数，我们也可以用关键字**def**定义自己的函数。将一些使用的程序块用函数封装起来，提供给我们自己或其他人的程序使用。
+
+```
+# 定义一个带有2个参数的 "repeat" 函数.
+def repeat(s, exclaim):
+    """
+    返回字符串's'的3次重复 .
+    如果exclaim为真，追加3个感叹号.
+    """
+
+    result = s + s + s  # 也可以使用更快的乘法运算符*, "s * 3" 
+    if exclaim:
+        result = result + '!!!'
+    return result
+    
+print repeat('Yay', False)      ## YayYayYay
+print repeat('Woo Hoo', True)   ## Woo HooWoo HooWoo Hoo!!!   
+```
 
 [Using Python as a Calculator](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
