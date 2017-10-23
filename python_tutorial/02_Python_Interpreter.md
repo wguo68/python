@@ -48,7 +48,7 @@ hello world!
 # 在这里import模块 -- sys 是一个标准模块名
 import sys
 
-print('Hello there '+ sys.argv[1])   # python2 : print 'Hello there', sys.argv[1]
+print('Hello there ', sys.argv[1])   # python2 : print 'Hello there', sys.argv[1]
 # 命令行参数依次存储在sys.argv[1], sys.argv[2] ...
 # sys.argv[0] 是脚本名
 ```
