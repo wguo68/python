@@ -38,6 +38,12 @@ hello world!
 hello world!
 ```
 
+### 参数传递（Argument Passing）
+
+执行python命令时可以传递给它（解释器）一些参数，如“python hello.py”就给解释器传递了一个脚本文件名“hello.py”。python命令后面的脚本文件名和参数都会被转换成一个字符串列表（a list of strings）并赋值给sys模块的argv变量，python程序就可以通过“import sys”即关键字 “import”引入sys模块，以便访问其中的变量argv。字符串列表sys.argv的长度至少是1，如果执行python命令时不带任何脚本文件名和参数，那么sys.argv[0]就是一个空串。如果执行“python hello.py”,则sys.argv[0]的值就是“hello.py”即脚本文件名。
+
+
+#### 附录：
 
 **文本编辑工具**： 编辑Python脚本文件推荐使用sublime text 或 Notepad++
 
