@@ -210,4 +210,9 @@ if __name__ == '__main__':
 
 一个python模块既可以直接执行，如"python hello.py"，也可以被其他模块调用执行。 当它被直接执行时，有一个特殊的变量名 "__name__" 被设置成 "__main__"，反之当它被其他模块调用执行时，"__name__" 被设置成它自身的文件名。因此，上面的程序只有被直接执行时，才会执行main函数。
 
+### 模块和名字空间
+   
+### 总结
+   python程序由一些模块组成，模块就是一个扩展名为".py"脚本文件。模块会被分类组成在各种包中，包就是一个包含模块文件的文件夹。其中必须有一个叫做init.py的特殊脚本文件（通常是一个内容空的文件。）。而一个模块中是一些函数定义和python命令（其中包括了函数调用命令、控制语句命令），模块的命令被一句一句地执行。
+
 [Using Python as a Calculator](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
