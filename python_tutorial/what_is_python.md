@@ -23,6 +23,8 @@ Python is *extensible*： 你可以将用C语言编写内在的函数或模块�
 
 ## Refer to：
 
+https://docs.python.org/3/tutorial/appetite.html
+
 http://thepythonguru.com/getting-started-with-python/ 
 
 https://pythonprogramming.net/introduction-to-python-programming/ 
