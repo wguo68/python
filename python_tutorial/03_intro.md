@@ -180,8 +180,8 @@ def repeat(s, exclaim):
         result = result + '!!!'
     return result
     
-print repeat('Yay', False)      ## YayYayYay
-print repeat('Woo Hoo', True)   ## Woo HooWoo HooWoo Hoo!!!   
+print repeat('Yay', False)      ## 输出结果将是：YayYayYay
+print repeat('Woo Hoo', True)   ## 输出结果将是：Woo HooWoo HooWoo Hoo!!!   
 ```
 
 [Using Python as a Calculator](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
