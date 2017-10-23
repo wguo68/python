@@ -10,9 +10,13 @@ Python语言简单易用，提供了比脚本语言更多针对大型程序的�
 
 Python是比C等高级语言更高级的语言，提供了更多的错误检查（error checking）、高级的内在( built in)数据类型如灵活的数组和字典、
 
-Python允许你将一个程序分解为很多模块（modules），这些模块也可以用于其他Python程序，Python自身就带了大量的标准模块，作为程序员开始Python的基础，这些模块提供了诸如： I/O, system calls, sockets, 图形用户接口等。
+Python允许你将一个程序分解为很多模块（modules），这些模块也可以用于其他Python程序，Python自身就带了大量的标准模块，作为程序员开始Python的基础，这些模块提供了诸如： I/O, system calls, sockets, 图形用户接口等。有成百上千的python库（模块）https://pypi.python.org/ 供你使用。
 
+Python是一个**解释性**语言: 和C/C++语言同，当你运行Python程序时，解释器一行一行的解析执行程序。从而大大地节省程序开发的时间，不需要任何编译和链接的过程。
 
+Python使你的程序更紧凑、可读性更好。同一个任务，Python程序比C, C++, or Java programs更简短。
+ * 高级数据类型使得复杂的操作可以在一个语句里完成
+ * 
 
 ## Refer to：
 
