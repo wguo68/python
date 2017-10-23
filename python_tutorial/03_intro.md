@@ -126,4 +126,24 @@ IndexError: string index out of range
 ''
 ```
 
+##  python编程：
+  
+  可以用python左一些复杂的事情，比如计算Fibonacci序列：
+```
+>>> # Fibonacci series:
+... # the sum of two elements defines the next
+... a, b = 0, 1
+>>> while b < 10:
+...     print(b)
+...     a, b = b, a+b
+...
+1
+1
+2
+3
+5
+8
+```
+
+
 [Using Python as a Calculator](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
