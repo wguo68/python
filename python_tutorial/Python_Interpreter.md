@@ -11,11 +11,13 @@
 
 ### （调用Python解释器）运行Python程序：  
      
-     主要是前2种方式，在此基础上，许多工具还提供了其他调用Python解释器执行Python命令的方式（如集成开发环境、notebook）
+主要有2种方式：
 
     * 交互式解释器: 
     
     * 运行脚本程序：
+    
+在此基础上，许多工具还提供了其他调用Python解释器执行Python命令的方式（如集成开发环境、notebook）
     
     * 集成开发环境：用于编写、运行Python脚本程序的图形用户界面程序如IDLE、PyCharm（[PyCharm安装及使用](http://www.jianshu.com/p/042324342bf4)  
     
