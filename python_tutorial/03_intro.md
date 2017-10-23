@@ -155,5 +155,15 @@ IndexError: string index out of range
 >>> print('The value of i is', i)
 The value of i is 65536
 ```
+print()可以跟一个关键字参数**end**以避免输出的换行或者输出一个不同的字符串，比如:
+```
+>>> a, b = 0, 1
+>>> while b < 1000:
+...     print(b, end=',')
+...     a, b = b, a+b
+...
+1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,
+```
+
 
 [Using Python as a Calculator](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
