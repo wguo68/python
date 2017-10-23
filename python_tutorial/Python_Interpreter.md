@@ -13,7 +13,16 @@
      
 主要有2种方式：
 
-* 交互式解释器: 
+* 交互式解释器: 只要在命令行输入“python”就进入交互解释执行模式。如：
+```
+$ python
+Python 2.5.2 (r252:60911, Feb 22 2008, 07:57:53) 
+[GCC 4.0.1 (Apple Computer, Inc. build 5363)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 1 + 1
+2
+>>> **输入 Control-D（Unix平台）, Control-Z（Windows平台） 退出python解释器**
+```
     
 * 运行脚本程序：
     
