@@ -235,3 +235,12 @@ pass语句什么也不做，它用在那些语法上至少组要一个语句但�
 ...     pass   # 暂时空着，记得以后这里要补充代码哦
 ...
 ```
+当你定义一个最小化的新类时，你可能要定义一些空的方法（类的成员函数）:
+```python
+class MyClass(object):
+    def meth_a(self):
+        pass
+
+    def meth_b(self):
+        print "I'm meth_b"
+```
