@@ -30,8 +30,8 @@
     else                    #否则(其他情况)，执行“其他情况语句块”
         其他情况语句块
     ...
-```  
-
+```  
+例如下面的程序：
 ```python
 >>> x = int(input("Please enter an integer: "))
 Please enter an integer: 42
