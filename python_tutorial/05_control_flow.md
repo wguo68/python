@@ -184,3 +184,26 @@ range(0, 10)
 >>> list(range(5))
 [0, 1, 2, 3, 4]
  ```
+### 4. 循环体中的break、continue、else
+和C语言一样，可以用break跳出for 或while循环体。
+如果循环不是通过break跳出的，则当循环结束后，如果循环体有else语句，则要执行该else语句。
+例如：
+```python
+>>> for n in range(2, 10):
+...     for x in range(2, n):
+...         if n % x == 0:
+...             print(n, 'equals', x, '*', n//x)
+...             break
+...     else:
+...         # loop fell through without finding a factor
+...         print(n, 'is a prime number')
+...
+2 is a prime number
+3 is a prime number
+4 equals 2 * 2
+5 is a prime number
+6 equals 2 * 3
+7 is a prime number
+8 equals 2 * 4
+9 equals 3 * 3
+```
