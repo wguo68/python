@@ -151,4 +151,27 @@ class range(start, stop[, step])
 >>> list(range(1, 0))
 []
  ```
+ 其中list将range生成的可迭代序列转化为列表。我们也可以直接在for 循环中使用range函数生成的可迭代对象（注意，不是列表）。
+ ```python
+ >>> for i in range(5):
+...     print(i)
+...
+0
+1
+2
+3
+4
+ ```
+ 再如：
+ ```python
+ >>> a = ['Mary', 'had', 'a', 'little', 'lamb']
+>>> for i in range(len(a)):
+...     print(i, a[i])
+...
+0 Mary
+1 had
+2 a
+3 little
+4 lamb
+ ```
  
