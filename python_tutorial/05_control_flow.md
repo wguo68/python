@@ -73,6 +73,7 @@ Which is 100
 Good bye!
 ```
 ### 2. while条件语句
+
 当关键字**while**后面的表达式为真（非0、非空），就执行while循环体里的语句块
  ```python   
     while 条件真：
@@ -94,4 +95,35 @@ The count is: 0
 The count is: 1
 The count is: 2
 The count is: 3
+```
+### 3. for条件语句
+
+当关键字**for** 结合**in**，对于“可迭代序列”中的每一个迭代变量，用循环体语句块进行相应的处理。
+ ```python   
+    for 迭代变量 in 可迭代序列：
+        语句块
+    ...
+```   
+例如：
+```python
+#输出字符串'Python'中的每一个元素，即字符
+for letter in 'Python':     # 字符串'Python'是一个可迭代序列，letter是其中的每一个迭代变量，即其每一个字符
+   print 'Current Letter :', letter
+
+#输出列表中的每一个元素
+fruits = ['banana', 'apple',  'mango']   # 列表是一个可迭代变量
+for fruit in fruits:        # Second Example
+   print 'Current fruit :', fruit
+```
+输出为：
+```python
+P
+y
+t
+h
+o
+n
+banana
+apple
+mango
 ```
