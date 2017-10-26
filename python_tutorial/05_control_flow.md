@@ -174,4 +174,13 @@ class range(start, stop[, step])
 3 little
 4 lamb
  ```
- 
+ 因为range生成的不是一个列表，而是一个可迭代对象（以后会介绍这个概念），所以如果用print，输出的是这个对象。例如：
+ ```python
+ >>>#打印range生成的对象
+ >>> print(range(10))
+range(0, 10)
+
+>>># list 将range生成的对象转化为了一个列表
+>>> list(range(5))
+[0, 1, 2, 3, 4]
+ ```
