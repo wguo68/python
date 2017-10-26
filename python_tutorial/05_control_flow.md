@@ -209,3 +209,21 @@ range(0, 10)
 ```
 *注意*：根据python缩进语法，这里的else属于for语句而不属于 if语句！
 
+**continue**和C语言一样，用于循环体中，一旦遇到continue语句，则循环体其余语句不再执行，而回到循环体开头，继续循环。
+例如：
+```python
+>>> for num in range(2, 10):
+...     if num % 2 == 0:
+...         print("Found an even number", num)
+...         continue
+...     print("Found a number", num)
+Found an even number 2
+Found a number 3
+Found an even number 4
+Found a number 5
+Found an even number 6
+Found a number 7
+Found an even number 8
+Found a number 9
+```
+
