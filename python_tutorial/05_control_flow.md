@@ -207,3 +207,5 @@ range(0, 10)
 8 equals 2 * 4
 9 equals 3 * 3
 ```
+*注意*：根据python缩进语法，这里的else属于for语句而不属于 if语句！
+
