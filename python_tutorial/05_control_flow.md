@@ -10,6 +10,28 @@
     ...
 ```    
     ![](https://www.tutorialspoint.com/python/images/decision_making.jpg)
+    
+    还有其他一些变种，如：
+```python   
+    if 条件真：       #如果条件真，执行“条件语句块”
+        条件语句块    
+    else             #否则，执行“条件语句块2“
+        条件语句块2
+    ...
+```  
+```python   
+    if 条件1：             #如果条件1为真，执行“条件1语句块”
+        条件1语句块    
+    elif 条件2             #否则如果条件2为真，执行“条件2语句块”
+        条件2语句块
+    elif 条件3             #否则如果条件3为真，执行“条件3语句块”
+        条件3语句块
+        ... 
+    else                    #否则(其他情况)，执行“其他情况语句块”
+        其他情况语句块
+    ...
+```  
+
 ```python
 >>> x = int(input("Please enter an integer: "))
 Please enter an integer: 42
