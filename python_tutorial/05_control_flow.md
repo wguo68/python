@@ -186,7 +186,7 @@ range(0, 10)
  ```
 ### 4. 循环体中的break、continue、else
 和C语言一样，可以用break跳出for 或while循环体。
-如果循环不是通过break跳出的，则当循环结束后，如果循环体有else语句，则要执行该else语句。
+如果循环**不是通过break跳出的**，则当循环结束后，如果后面有else语句，则要执行该else语句。
 例如：
 ```python
 >>> for n in range(2, 10):
