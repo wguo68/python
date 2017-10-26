@@ -127,3 +127,28 @@ banana
 apple
 mango
 ```
+
+ **range()**可以用来生成一个可迭代的整数序列。例如
+ ```python
+class range(stop)
+class range(start, stop[, step])
+ ```
+ 第一个函数表示从0开始到stop结束（不包含stop），而第二个则表示从start开始，以步长step为间隔，到stop结束（不包含stop）。
+ 例如：
+ ```python
+ >>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> list(range(1, 11))
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+>>> list(range(0, 30, 5))
+[0, 5, 10, 15, 20, 25]
+>>> list(range(0, 10, 3))
+[0, 3, 6, 9]
+>>> list(range(0, -10, -1))
+[0, -1, -2, -3, -4, -5, -6, -7, -8, -9]
+>>> list(range(0))
+[]
+>>> list(range(1, 0))
+[]
+ ```
+ 
