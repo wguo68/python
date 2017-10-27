@@ -8,8 +8,11 @@
   在Unix系统上将“/usr/local/bin”添加到系统路径PATH，在Windwos系统上将“C:\python36”添加到系统路径Path。
   
   1.1) windows 平台
+  
     ![](https://docs.python.org/3/_images/win_installer.png)
+    
     在上述的安卓过程中选择“Add Python3.6 to Path”就可以了。
+    
   1.2） Unix已经默认安装了Python，直接使用即可。
 
 注：你也可以用第三方按照工具安装Python解释器和各种python库，如[anaconda](https://zhuanlan.zhihu.com/p/25198543)
