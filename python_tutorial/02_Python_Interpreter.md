@@ -26,7 +26,15 @@
         
   1.2） Unix和Mac操作系统都自带了Python，直接使用即可。你也可以在[http://www.python.org/download/ ](http://www.python.org/download/ )下载最新版安装。
 
-注：你也可以用第三方按照工具安装Python解释器和各种python库，如[anaconda](https://zhuanlan.zhihu.com/p/25198543)
+注：你也可以用第三方安装程序，如:
+  
+   [Anaconda](https://www.anaconda.com/download/)([安装过程](https://zhuanlan.zhihu.com/p/25198543))
+   
+   [ActivePython](https://www.activestate.com/activepython)
+   
+   [Canopy](https://www.enthought.com/product/canopy)
+   
+   [WinPython](https://winpython.github.io/):针对windows平台
 
 ### 2.（调用Python解释器）运行Python程序：  
      
@@ -86,6 +94,6 @@ Hello there Alice
 
 许多工具如集成开发环境提供了更方便的编写和执行python程序的方式（不在本教程介绍范围里）。
     
-* 集成开发环境：用于编写、运行Python脚本程序的图形用户界面程序如IDLE、PyCharm（[PyCharm安装及使用](http://www.jianshu.com/p/042324342bf4)  
+* 集成开发环境：用于编写、运行Python脚本程序的图形用户界面程序如IDLE、[PyCharm](https://www.jetbrains.com/pycharm/)（[PyCharm安装及使用](http://www.jianshu.com/p/042324342bf4)  
     
 * jupyter notebook运行Python解释器：在浏览器中jupyter notebook环境下执行Python命令
