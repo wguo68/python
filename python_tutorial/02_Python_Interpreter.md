@@ -82,7 +82,7 @@ Hello there Alice
 
 #### 附录：
 
-**文本编辑工具**： 编辑Python脚本文件推荐使用sublime text 或 Notepad++
+**文本编辑工具**： 编辑Python脚本文件推荐使用[sublime text](https://www.sublimetext.com/) 或 [Notepad++](https://notepad-plus-plus.org/).
 
 许多工具如集成开发环境提供了更方便的编写和执行python程序的方式（不在本教程介绍范围里）。
     
