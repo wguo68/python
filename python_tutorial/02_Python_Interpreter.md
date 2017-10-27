@@ -13,7 +13,7 @@
     
     在上述的安卓过程中选择“Add Python3.6 to Path”就可以了。
     
-  1.2） Unix已经默认安装了Python，直接使用即可。
+  1.2） Unix和Mac操作系统都自带了Python，直接使用即可。你也可以在[http://www.python.org/download/ ](http://www.python.org/download/ )下载最新版安装。
 
 注：你也可以用第三方按照工具安装Python解释器和各种python库，如[anaconda](https://zhuanlan.zhihu.com/p/25198543)
 
