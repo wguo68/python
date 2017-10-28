@@ -21,6 +21,10 @@ Python使你的程序更紧凑、可读性更好。同一个任务，Python程�
 
 Python is *extensible*： 你可以将用C语言编写内在的函数或模块添加到Python解释器（interpreter），通过将Python解释器链接到你的C程序（二进制形式），将该C程序作为你的 python程序的扩展。
 
+![](https://pic.36krcnd.com/201707/19074320/bj9jmy9abh9gfmbn!1200)
+
+IEEE发布2017年编程语言排行榜：Python高居首位。
+
 ## Refer to：
 
 https://docs.python.org/3/tutorial/appetite.html
